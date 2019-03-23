@@ -8,37 +8,54 @@
 	</title>
 </head>
 	<style>
-	body, html {
-	  height: 100%;
-	}
+		body, html {
+		  height: 100%;
+		}
 
-	html { 
-	  background: url(vv_background.jpg) no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	}
+		html { 
+		  background: url(vv_background.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
 
-	img {
-	   position: absolute;
-	   top: 50%;
-	   left: 50%;
-	   width: 802px;
-	   height: 133px;
-	   margin-top: -66px; /* Half the height */
-	   margin-left: -401px; /* Half the width */
-	}
-	.center {
-		  margin: auto;
-		  width: 50%;
-		  border: 3px solid green;
-		  padding: 10px;
-		  text-align: center;
-	}	
+		.center {
+		   position: absolute;
+		   top: 90%;
+		   left: 50%;
+		   width: 60%;
+		   height: 170px;
+		   margin-top: -10%;
+		   margin-left: -20%;
+		}
+		.signature {
+		   width: 100%;
+		}
+
+		p {
+		   font-family: Arial;
+		   font-size: 1.5vw;
+		}
+
+		.email {
+		   width: 100%;
+		   position: absolute;
+	 	   text-align: center;
+	 	   color: white;
+	 	   vertical-align: bottom;
+	 	   text-align: right;
+	 	   -webkit-font-smoothing: antialiased;
+	 	   font-weight: 100;
+		}
 	</style>
 
 	<body>
-		<img src="vv_signature.png" alt="Vine View Ranch">
+		<div class="center">
+			<img class="signature" src="vv_signature_5.png" alt="Vine View Ranch">
+			<p class="email">
+				thebarn@vineviewranch.com
+			</p>
+		</div>
 	</body>
 </html>
